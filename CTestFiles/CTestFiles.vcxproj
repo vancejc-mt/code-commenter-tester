@@ -18,11 +18,30 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseEditorConfig\CHeader.h" />
+    <ClInclude Include="BaseEditorConfig\SecondaryEditorConfig\SecondaryCHeader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.editorconfig" />
+    <None Include="BaseEditorConfig\CSharp.cs" />
+    <None Include="BaseEditorConfig\Javascript.js" />
+    <None Include="BaseEditorConfig\Python.py" />
+    <None Include="BaseEditorConfig\SecondaryEditorConfig\.editorconfig" />
+    <None Include="BaseEditorConfig\SecondaryEditorConfig\SecondaryCSharp.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseEditorConfig\CSource.cpp" />
+    <ClCompile Include="BaseEditorConfig\SecondaryEditorConfig\SecondaryCSource.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="BaseEditorConfig\Xml.xml" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ab39399d-d5a3-4ddc-bbd6-bb11959889e8}</ProjectGuid>
-    <RootNamespace>TesterApp</RootNamespace>
+    <ProjectGuid>{3ab5893a-b36a-4d8e-8db2-9290b4346eb1}</ProjectGuid>
+    <RootNamespace>CTestFiles</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -138,13 +157,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="TesterApp.cpp" />
-    <ClCompile Include="TestSource.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="TestHeader.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
