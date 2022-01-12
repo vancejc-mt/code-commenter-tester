@@ -24,11 +24,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\.editorconfig" />
-    <None Include="BaseEditorConfig\CSharp.cs" />
     <None Include="BaseEditorConfig\Javascript.js" />
     <None Include="BaseEditorConfig\Python.py" />
     <None Include="BaseEditorConfig\SecondaryEditorConfig\.editorconfig" />
-    <None Include="BaseEditorConfig\SecondaryEditorConfig\SecondaryCSharp.cs" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BaseEditorConfig\CSource.cpp" />

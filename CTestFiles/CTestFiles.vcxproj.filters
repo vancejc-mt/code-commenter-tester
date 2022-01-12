@@ -4,7 +4,7 @@
     <Filter Include="BaseEditorConfig">
       <UniqueIdentifier>{f103de12-d3f8-443e-bcda-13d78a3871a9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="SecondaryEditorConfig">
+    <Filter Include="BaseEditorConfig\SecondaryEditorConfig">
       <UniqueIdentifier>{6e5d1839-7cb3-404d-95c7-98ffb4a8cf33}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -13,13 +13,10 @@
       <Filter>BaseEditorConfig</Filter>
     </ClInclude>
     <ClInclude Include="BaseEditorConfig\SecondaryEditorConfig\SecondaryCHeader.h">
-      <Filter>SecondaryEditorConfig</Filter>
+      <Filter>BaseEditorConfig\SecondaryEditorConfig</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="BaseEditorConfig\CSharp.cs">
-      <Filter>BaseEditorConfig</Filter>
-    </None>
     <None Include="BaseEditorConfig\Javascript.js">
       <Filter>BaseEditorConfig</Filter>
     </None>
@@ -28,10 +25,7 @@
     </None>
     <None Include="..\.editorconfig" />
     <None Include="BaseEditorConfig\SecondaryEditorConfig\.editorconfig">
-      <Filter>SecondaryEditorConfig</Filter>
-    </None>
-    <None Include="BaseEditorConfig\SecondaryEditorConfig\SecondaryCSharp.cs">
-      <Filter>SecondaryEditorConfig</Filter>
+      <Filter>BaseEditorConfig\SecondaryEditorConfig</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -39,7 +33,7 @@
       <Filter>BaseEditorConfig</Filter>
     </ClCompile>
     <ClCompile Include="BaseEditorConfig\SecondaryEditorConfig\SecondaryCSource.cpp">
-      <Filter>SecondaryEditorConfig</Filter>
+      <Filter>BaseEditorConfig\SecondaryEditorConfig</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
