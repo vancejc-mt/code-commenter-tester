@@ -36,3 +36,6 @@ You can easily debug the `Code Commenter` project by providing a path to this so
 - `"C:\src\code-commenter-tester\CodeCommenterTester.sln /rootsuffix Exp`
 
 This will run an instance of the solution with only that extension installed.
+
+> [!NOTE]
+> This is a note
